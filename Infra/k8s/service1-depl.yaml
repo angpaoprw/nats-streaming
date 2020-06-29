@@ -24,6 +24,8 @@ spec:
               value: 'http://nats-srv:4222'
             - name: NATS_CLUSTER_ID
               value: test
+            - name: MONGO_URL
+              value: 'mongodb://service1-mongo-srv:27017/service1'
 ---
 apiVersion: v1
 kind: Service

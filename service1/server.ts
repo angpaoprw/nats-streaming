@@ -2,6 +2,7 @@ import express from 'express'
 import { natsWrapper } from './nats/natsConnect'
 import { Send } from './nats/send'
 import { json, urlencoded } from 'body-parser'
+import './database/dbh'
 
 const app = express();
 

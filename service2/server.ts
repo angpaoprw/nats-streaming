@@ -1,6 +1,7 @@
 import express from 'express'
 import { natsWrapper } from './nats/natConnection'
 import { BarkingListener } from './nats/events/listener/barkingEvent'
+import './database/dbh'
 
 const app = express();
 
